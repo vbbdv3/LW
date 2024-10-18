@@ -1,0 +1,7 @@
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.ColossalTitan:FireServer()
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.ArmoredTitan:FireServer()
+
+
+game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.ConquererHaki:FireServer()
+
+прпр
