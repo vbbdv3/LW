@@ -53,11 +53,13 @@ while _G.RawLobster_enabled do
 local args = {
     [1] = "RawLobster"
 }
-
 game:GetService("Players").LocalPlayer.PlayerGui.Parkour.Script.CookDish:InvokeServer(unpack(args))
-
 wait(7)
 end
+end)
+
+btns:Button("Fly", function()
+loadstring(game:HttpGetAsync('https://raw.githubusercontent.com/vbbdv3/ENG/refs/heads/main/fly'))()
 end)
 
 local btns = serv:Channel("Active")
