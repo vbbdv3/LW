@@ -106,20 +106,15 @@ btns:Button("Auto Attack X3", function()
 _G.Dash_enabled = not _G.Dash_enabled
 while _G.Dash_enabled do
 local args = {
-    [1] = Vector3.new(-5441.95361328125, 1817.444091796875, 3717.770751953125)
-}
-game:GetService("Players").LocalPlayer.Character.FireArrow.ServerScript.Charge:FireServer(unpack(args))
-wait(5)
-local args = {
     [1] = Vector3.new(-5996.880859375, 1843.762939453125, 4706.63330078125)
 }
 game:GetService("Players").LocalPlayer.Character.FireArrow.ServerScript.Charge:FireServer(unpack(args))
-wait(5)
+wait(20)
 local args = {
     [1] = Vector3.new(-5590.2646484375, 1830.92529296875, 4265.90478515625)
 }
 game:GetService("Players").LocalPlayer.Character.FireArrow.ServerScript.Charge:FireServer(unpack(args))
-wait(5)
+wait(20)
 end
 end)
 
@@ -131,7 +126,7 @@ if v.Name == 'Touched' then
 v.CFrame = game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame
 end
 end
-wait(120)
+wait(300)
 end
 end)
 
